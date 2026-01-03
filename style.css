@@ -12,7 +12,7 @@
 
 body{
   background: #020202;
-  color: #f7fbea;
+  color: #f4ffcf;
 }
 
 #header{
@@ -45,7 +45,33 @@ nav ul li{
 }
 
 nav ul li a{
-  color: #f7fbea;
+  color: #f4ffcf;
   text-decoration: none;
   font-size: 18px;
+  position: relative;
+}
+
+nav ul li a::after{
+  content: '';
+  width: 0;
+  height: 3px;
+  background: #f4ffcf;
+  position: absolute;
+  left: 0;
+  bottom: -6px;
+  transition: 0.5s;
+}
+
+nav ul li a:hover::after{
+  width: 100%;
+}
+
+.header-text{
+  margin-top: 20%;
+  font-size: 30px;
+}
+
+.header-text h1{
+  font-size: 60px;
+  margin-top: 20px;
 }
