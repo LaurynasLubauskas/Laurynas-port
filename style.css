@@ -12,7 +12,11 @@
 
 body{
   background: #020202;
+<<<<<<< HEAD
   color: #f4ffcf;
+=======
+  color: #f7fbea;
+>>>>>>> eca719d117b195329de922cab9a39056d3b3b918
 }
 
 #header{
@@ -45,6 +49,7 @@ nav ul li{
 }
 
 nav ul li a{
+<<<<<<< HEAD
   color: #f4ffcf;
   text-decoration: none;
   font-size: 18px;
@@ -75,3 +80,9 @@ nav ul li a:hover::after{
   font-size: 60px;
   margin-top: 20px;
 }
+=======
+  color: #f7fbea;
+  text-decoration: none;
+  font-size: 18px;
+}
+>>>>>>> eca719d117b195329de922cab9a39056d3b3b918
